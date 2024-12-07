@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Ameer Adeigbe",
     author_email="ameeradeigbe@gmail.com",
-    url="https://github.com/AmeerTechsoft/dttools",
+    url="https://github.com/AmeerTechsoft/currency-converter",
     packages=find_packages(),
     install_requires=[ 
         "yfinance",
