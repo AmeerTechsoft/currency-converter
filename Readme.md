@@ -25,7 +25,16 @@ from currency_converter.converter import CurrencyConverter
 ### Initialize converter
 
 ``` py
+# using Yahoo finance
+
 converter = CurrencyConverter(use_yahoo=True)
+
+```
+
+``` py
+# using Google finance
+
+converter = CurrencyConverter(use_yahoo=False)
 
 ```
 
@@ -33,7 +42,7 @@ converter = CurrencyConverter(use_yahoo=True)
 
 ``` py
 amount_in_eur = converter.convert(100, "USD", "EUR")
-print(f"100 USD is {amount_in_eur:.2f} EUR")
+print(f"100 USD is {amount_in_eur} EUR")
 
 ```
 ## License
